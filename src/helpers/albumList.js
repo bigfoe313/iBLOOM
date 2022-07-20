@@ -1,5 +1,41 @@
 export const library = [
     {
+      title: "Sunflower",
+      image:
+        "https://ipfs.moralis.io:2053/ipfs/Qma9pMhGTx4gMfWo5YuddVno76kqK16u94dSTaCPCDBHFD/media/1",
+      contract: "0xd3618B6F05f1376fC7828FEDD932985536e0883F",
+    },
+    {
+      title: "Shoulda Coulda Woulda",
+      image:
+        "https://ipfs.moralis.io:2053/ipfs/Qma9pMhGTx4gMfWo5YuddVno76kqK16u94dSTaCPCDBHFD/media/1",
+      contract: "0xC7846c62B4B345F3B72b40b2d24ebF5A9BD511ea",
+    },
+    {
+      title: "Know Better",
+      image:
+        "https://ipfs.moralis.io:2053/ipfs/Qma9pMhGTx4gMfWo5YuddVno76kqK16u94dSTaCPCDBHFD/media/1",
+      contract: "0x87b151C2E7652dd52da86516Cd8BDc87e7652f08",
+    },
+    {
+      title: "Sunshine",
+      image:
+        "https://ipfs.moralis.io:2053/ipfs/Qma9pMhGTx4gMfWo5YuddVno76kqK16u94dSTaCPCDBHFD/media/1",
+      contract: "0x8f5588740fA1a6F46c83de3C054ecbe18934d08E",
+    },
+    {
+      title: "Out of Sight",
+      image:
+        "https://ipfs.moralis.io:2053/ipfs/Qma9pMhGTx4gMfWo5YuddVno76kqK16u94dSTaCPCDBHFD/media/1",
+      contract: "0xE409011F25cF9eEe516f2922fc400698b9E46A29",
+    },
+    {
+      title: "Paper Planes",
+      image:
+        "https://ipfs.moralis.io:2053/ipfs/Qma9pMhGTx4gMfWo5YuddVno76kqK16u94dSTaCPCDBHFD/media/1",
+      contract: "0x4D6ded2a9c3ffDe3641B55FD0Ad698C651726Be7",
+    },
+    {
       title: "Hyperspace",
       image:
         "https://www.digitalartsonline.co.uk/cmsdata/slideshow/3776245/beck_-_hyperspace.jpg"

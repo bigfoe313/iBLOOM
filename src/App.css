@@ -45,8 +45,15 @@
     color: white;
 }
 
+/* On screens that are more than 700px, add ~300px additional margin to make space for sidebar */
+@media screen and (min-width: 700px) {
+    .ant-tabs-nav-list {
+        margin-left: 285px;
+    }
+}
+
 .ant-tabs-ink-bar {
-    background: #1DB954;
+    background: #1db6b9;
     width: 10px;
 }
 
@@ -80,12 +87,57 @@
     margin-bottom: 20px;
   }
   
+/* The side navigation menu */
+.sideBar {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+    background-image: linear-gradient(#1e2422, #000000);
+    background-attachment:fixed;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sideBar div {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sideBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
   .sideBar {
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    width: 100%;
+    height: auto;
+    position: relative;
   }
+  .sideBar div {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar div {
+    text-align: center;
+    float: none;
+  }
+}
   
   .recentPlayed {
     border-top: 2px solid rgb(125, 125, 125);
@@ -94,7 +146,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(100vh - 400px);
+    height: 100%;
   }
   
   .recentTitle {

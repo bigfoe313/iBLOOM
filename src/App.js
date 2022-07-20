@@ -9,6 +9,7 @@ import Player from "./components/AudioPlayer";
 import { Layout } from "antd";
 import Spotify from "./images/Spotify.png";
 import { SearchOutlined, DownCircleOutlined } from "@ant-design/icons";
+import iBLOOMLogo from "./images/Power_Button.png";
 
 const { Content, Sider, Footer } = Layout;
 
@@ -19,24 +20,25 @@ const App = () => {
     <>
       <Layout>
         <Layout>
-          <Sider width={300} className="sideBar">
-            <img src={Spotify} alt="Logo" className="logo"></img>
-            <div className="searchBar">
+          <div className="sideBar">
+            <img src={iBLOOMLogo} alt="Logo" className="logo" hidden></img>
+            <p hidden> iBLOOMRecords </p>
+            <div className="searchBar" hidden>
               <span> Search </span>
               <SearchOutlined style={{ fontSize: "30px" }} />
             </div>
             <Link to="/">
-            <p style={{ color: "#1DB954" }}> Home </p>
+            <p style={{ color: "#1db6b9", fontSize: "20px",   fontWeight: "600" }}> Home </p>
             </Link>
-            <p> Your Music </p>
+            <p hidden> iBLOOMRecords </p>
             <div className="recentPlayed">
-              <p className="recentTitle">RECENTLY PLAYED</p>
-              <div className="install">
-                <span> Install App </span>
+              <p className="recentTitle">iBLOOM Records is an artist owned record label where all profits from music sales go to the artist. Fans have the opportunity to share in the success of our artists through the collection of music NFTs. We are on the forefront of the decentralized music industry. <a href="mailto:imani.iamfaith@gmail.com" target = "_blank">Join us.</a></p>
+              <div className="install" hidden>
+                <span>  </span>
                 <DownCircleOutlined style={{ fontSize: "30px" }} />
               </div>
             </div>
-          </Sider>
+          </div>
           <Content className="contentWindow">
           <Routes>
             <Route path="/" element={<Home />} />
