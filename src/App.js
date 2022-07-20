@@ -28,7 +28,7 @@ const App = () => {
               <SearchOutlined style={{ fontSize: "30px" }} />
             </div>
             <Link to="/">
-            <p style={{ color: "#1db6b9", fontSize: "20px",   fontWeight: "600" }}> Home </p>
+            <p style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}> Home </p>
             </Link>
             <p hidden> iBLOOMRecords </p>
             <div className="recentPlayed">
