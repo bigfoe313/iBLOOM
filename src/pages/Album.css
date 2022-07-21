@@ -2,6 +2,8 @@
     padding: 10px 40px;
     position: relative;
     display: inline-block;
+    justify-content: space-between;
+    align-items:center;
 }
 
 /* On screens that are more than 700px, add 300px additional padding to make space for sidebar */
