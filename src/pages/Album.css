@@ -2,13 +2,13 @@
     padding: 10px 40px;
 }
 
-/* On screens that are more than 700px, add 300px additional padding to make space for sidebar
+/* On screens that are more than 700px, add 300px additional padding to make space for sidebar */
 @media screen and (min-width: 700px) {
     .albumContent {
         padding: 10px 340px;
     }
 }
-*/
+
 .topBan {
     display: flex;
     gap:30px;
