@@ -94,7 +94,7 @@ const Album = ({setNftAlbum}) => {
               className="albumCover"
             ></img>
             <div className="albumDeets">
-              <div>TITLE</div>
+              <div hidden>TITLE</div>
               <div className="title">{album.title}</div>
               <div className="artist">
                 {albumDetails && JSON.parse(albumDetails[0].metadata).artist}
