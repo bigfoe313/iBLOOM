@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/iBLOOM/static/css/main.37eeb78c.css",
-    "main.js": "/iBLOOM/static/js/main.0b47d2de.js",
+    "main.css": "/iBLOOM/static/css/main.6043d472.css",
+    "main.js": "/iBLOOM/static/js/main.eb042ad9.js",
     "static/js/787.ebd7646a.chunk.js": "/iBLOOM/static/js/787.ebd7646a.chunk.js",
     "static/media/SunflowerAlbumCover.gif": "/iBLOOM/static/media/SunflowerAlbumCover.aa0846fe0ea94c5ed6c8.gif",
     "static/media/Power_Button.png": "/iBLOOM/static/media/Power_Button.71fd6444a8c37ef17258.png",
     "static/media/Spotify.png": "/iBLOOM/static/media/Spotify.9816e42b058c64fe305f.png",
     "index.html": "/iBLOOM/index.html",
-    "main.37eeb78c.css.map": "/iBLOOM/static/css/main.37eeb78c.css.map",
-    "main.0b47d2de.js.map": "/iBLOOM/static/js/main.0b47d2de.js.map",
+    "main.6043d472.css.map": "/iBLOOM/static/css/main.6043d472.css.map",
+    "main.eb042ad9.js.map": "/iBLOOM/static/js/main.eb042ad9.js.map",
     "787.ebd7646a.chunk.js.map": "/iBLOOM/static/js/787.ebd7646a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37eeb78c.css",
-    "static/js/main.0b47d2de.js"
+    "static/css/main.6043d472.css",
+    "static/js/main.eb042ad9.js"
   ]
 }
