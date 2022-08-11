@@ -10,6 +10,29 @@ import { Layout } from "antd";
 import Spotify from "./images/Spotify.png";
 import { SearchOutlined, DownCircleOutlined } from "@ant-design/icons";
 import iBLOOMLogo from "./images/Power_Button.png";
+import { Magic } from "magic-sdk";
+import { ConnectExtension } from "@magic-ext/connect";
+/*
+const magic = new Magic('pk_live_C69DC35AF77113D1', {
+  extensions: [new ConnectExtension()],
+  network: "kovan", // or "ropsten" or "kovan"
+});
+*/
+const customNodeOptions = {
+  rpcUrl: 'https://rpc-mumbai.maticvigil.com//',
+  chainId: 8001,
+}
+
+const magic = new Magic('pk_live_C69DC35AF77113D1', {
+  extensions: [new ConnectExtension()],
+  network: customNodeOptions
+});
+
+const showWallet = () => {
+  magic.connect.showWallet().catch((e) => {
+    console.log(e);
+  });
+};
 
 const { Content, Sider, Footer } = Layout;
 
@@ -20,17 +43,23 @@ const App = () => {
     <>
       <Layout>
         <Layout>
-          <div className="sideBar">
+          <div className="sideBar" >
             <img src={iBLOOMLogo} alt="Logo" className="logo" hidden></img>
             <p hidden> iBLOOMRecords </p>
             <div className="searchBar" hidden>
               <span> Search </span>
               <SearchOutlined style={{ fontSize: "30px" }} />
             </div>
+        <div style={{ textAlign:"justify", textAlignLast:"justify", textJustify:"interWord", width:"100%" }}>
             <Link to="/">
-            <p style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}> Home </p>
+            <p className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}> Home </p>
             </Link>
-            <p hidden> iBLOOMRecords </p>
+
+            <a href="#" onClick={showWallet} className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}>
+              Wallet
+            </a>
+
+        </div>
             <div className="recentPlayed">
               <p className="recentTitle">iBLOOM Records is an artist owned record label where all profits from music sales go to the artist. Fans have the opportunity to share in the success of our artists through the collection of music NFTs. We are on the forefront of the decentralized music industry. <a href="mailto:imani.iamfaith@gmail.com" target = "_blank">Contact us.</a></p>
               <div className="install" hidden>
