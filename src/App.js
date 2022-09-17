@@ -13,7 +13,7 @@ import iBLOOMLogo from "./images/Power_Button.png";
 import { Magic } from "magic-sdk";
 import { ConnectExtension } from "@magic-ext/connect";
 /*
-const magic = new Magic('pk_live_C69DC35AF77113D1', {
+const magic = new Magic('pk_live_E6F73D5862FD942C', {
   extensions: [new ConnectExtension()],
   network: "kovan", // or "ropsten" or "kovan"
 });
@@ -23,7 +23,7 @@ const customNodeOptions = {
   chainId: 8001,
 }
 
-const magic = new Magic('pk_live_C69DC35AF77113D1', {
+const magic = new Magic('pk_live_E6F73D5862FD942C', {
   extensions: [new ConnectExtension()],
   network: customNodeOptions
 });
