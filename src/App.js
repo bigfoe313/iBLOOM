@@ -51,9 +51,11 @@ const App = () => {
               <SearchOutlined style={{ fontSize: "30px" }} />
             </div>
         <div style={{ textAlign:"justify", textAlignLast:"justify", textJustify:"interWord", width:"100%" }}>
+            <Link to="/">
             <p className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}> Home </p>
+            </Link>
 
-            <a href="#" onClick={showWallet} className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}>
+            <a href="#" onClick={showWallet} onTouchStart={showWallet} className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}>
               Wallet
             </a>
 
