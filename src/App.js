@@ -12,6 +12,7 @@ import { SearchOutlined, DownCircleOutlined } from "@ant-design/icons";
 import iBLOOMLogo from "./images/Power_Button.png";
 import { Magic } from "magic-sdk";
 import { ConnectExtension } from "@magic-ext/connect";
+import Web3 from "web3";
 /*
 const magic = new Magic('pk_live_E6F73D5862FD942C', {
   extensions: [new ConnectExtension()],
@@ -28,7 +29,22 @@ const magic = new Magic('pk_live_E6F73D5862FD942C', {
   network: customNodeOptions
 });
 
+const web3 = new Web3(magic.rpcProvider);
+/*
+  const login = async () => {
+    web3.eth
+      .getAccounts()
+      .then((accounts) => {
+        setAccount(accounts?.[0]);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+*/
 const showWallet = () => {
+  window.web3 = new Web3(magic.rpcProvider);
+  window.web3.eth.getAccounts().then(accounts => console.log(accounts[0]));
   magic.connect.showWallet().catch((e) => {
     console.log(e);
   });
@@ -50,16 +66,16 @@ const App = () => {
               <span> Search </span>
               <SearchOutlined style={{ fontSize: "30px" }} />
             </div>
-        <div style={{ textAlign:"justify", textAlignLast:"justify", textJustify:"interWord", width:"100%" }}>
-            <Link to="/">
-            <p className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}> Home </p>
-            </Link>
+            <div style={{ textAlign:"justify", textAlignLast:"justify", textJustify:"interWord", width:"100%" }}>
+                <Link to="/">
+                <p className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}> Home </p>
+                </Link>
 
-            <a href="#" onClick={showWallet} onTouchStart={showWallet} className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}>
-              Wallet
-            </a>
+                <a href="#" onClick={showWallet} className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}>
+                  Wallet
+                </a>
 
-        </div>
+            </div>
             <div className="recentPlayed">
               <p className="recentTitle">iBLOOM Records is an artist owned record label where all profits from music sales go to the artist. Fans have the opportunity to share in the success of our artists through the collection of music NFTs. We are on the forefront of the decentralized music industry. <a href="mailto:imani.iamfaith@gmail.com" target = "_blank">Contact us.</a></p>
               <div className="install" hidden>
