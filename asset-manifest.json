@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/iBLOOM/static/css/main.d3656f7f.chunk.css",
-    "main.js": "/iBLOOM/static/js/main.8ace4c20.chunk.js",
-    "main.js.map": "/iBLOOM/static/js/main.8ace4c20.chunk.js.map",
-    "runtime-main.js": "/iBLOOM/static/js/runtime-main.e04a7e61.js",
-    "runtime-main.js.map": "/iBLOOM/static/js/runtime-main.e04a7e61.js.map",
+    "main.js": "/iBLOOM/static/js/main.03eaa5f3.chunk.js",
+    "main.js.map": "/iBLOOM/static/js/main.03eaa5f3.chunk.js.map",
+    "runtime-main.js": "/iBLOOM/static/js/runtime-main.0bb5d369.js",
+    "runtime-main.js.map": "/iBLOOM/static/js/runtime-main.0bb5d369.js.map",
     "static/css/2.7f56d33c.chunk.css": "/iBLOOM/static/css/2.7f56d33c.chunk.css",
-    "static/js/2.2e2f3f96.chunk.js": "/iBLOOM/static/js/2.2e2f3f96.chunk.js",
-    "static/js/2.2e2f3f96.chunk.js.map": "/iBLOOM/static/js/2.2e2f3f96.chunk.js.map",
-    "static/js/3.14be1178.chunk.js": "/iBLOOM/static/js/3.14be1178.chunk.js",
-    "static/js/3.14be1178.chunk.js.map": "/iBLOOM/static/js/3.14be1178.chunk.js.map",
+    "static/js/2.08a0786b.chunk.js": "/iBLOOM/static/js/2.08a0786b.chunk.js",
+    "static/js/2.08a0786b.chunk.js.map": "/iBLOOM/static/js/2.08a0786b.chunk.js.map",
+    "static/js/3.29d63dc3.chunk.js": "/iBLOOM/static/js/3.29d63dc3.chunk.js",
+    "static/js/3.29d63dc3.chunk.js.map": "/iBLOOM/static/js/3.29d63dc3.chunk.js.map",
     "index.html": "/iBLOOM/index.html",
     "static/css/2.7f56d33c.chunk.css.map": "/iBLOOM/static/css/2.7f56d33c.chunk.css.map",
     "static/css/main.d3656f7f.chunk.css.map": "/iBLOOM/static/css/main.d3656f7f.chunk.css.map",
-    "static/js/2.2e2f3f96.chunk.js.LICENSE.txt": "/iBLOOM/static/js/2.2e2f3f96.chunk.js.LICENSE.txt",
+    "static/js/2.08a0786b.chunk.js.LICENSE.txt": "/iBLOOM/static/js/2.08a0786b.chunk.js.LICENSE.txt",
     "static/media/Power_Button.71fd6444.png": "/iBLOOM/static/media/Power_Button.71fd6444.png",
     "static/media/Spotify.9816e42b.png": "/iBLOOM/static/media/Spotify.9816e42b.png",
+    "static/media/SunflowerAlbumCover.73f2a8bf.jpg": "/iBLOOM/static/media/SunflowerAlbumCover.73f2a8bf.jpg",
     "static/media/SunflowerAlbumCover.aa0846fe.gif": "/iBLOOM/static/media/SunflowerAlbumCover.aa0846fe.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.e04a7e61.js",
+    "static/js/runtime-main.0bb5d369.js",
     "static/css/2.7f56d33c.chunk.css",
-    "static/js/2.2e2f3f96.chunk.js",
+    "static/js/2.08a0786b.chunk.js",
     "static/css/main.d3656f7f.chunk.css",
-    "static/js/main.8ace4c20.chunk.js"
+    "static/js/main.03eaa5f3.chunk.js"
   ]
 }
