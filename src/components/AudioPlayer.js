@@ -40,6 +40,7 @@ const Player = ({ url }) => {
         <div className="songTitle">{JSON.parse(url[trackIndex].metadata).name}</div>
         <div className="songAlbum">Sunflower</div>
         <div className="songAlbum" hidden>{url[trackIndex].name}</div>
+        <br></br>
         </div>
     </div>
     <div>
@@ -75,6 +76,10 @@ const Player = ({ url }) => {
             onChange={(value) => onVolume(value/100)}
           />
     </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <div className="songAlbum" ><a href={url[trackIndex].name} target = "_blank"><div className="openButton">Buy NFT</div></a></div>
     </>
   );
 };

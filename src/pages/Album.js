@@ -17,10 +17,10 @@ const Album = ({setNftAlbum}) => {
         "token_id": "4",
         "amount": "1",
         "contract_type": "ERC721",
-        "name": "Shadow",
+        "name": "https://withpaper.com/checkout/49b08700-c950-43ad-8bd0-cd520c292efe",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/3.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"ShouldaCouldaWoulda\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=10rM9CXYEEMS_f9k_U_gTJ574Xyobf98h\",\"duration\":\"0:29\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Shoulda Coulda Woulda\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1j3756EIfQnDY5sR11Rm7opPLaI58Reho\",\"duration\":\"3:13\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -28,10 +28,10 @@ const Album = ({setNftAlbum}) => {
         "token_id": "6",
         "amount": "1",
         "contract_type": "ERC721",
-        "name": "Shadow",
+        "name": "https://withpaper.com/checkout/ff8926b0-6a1e-45d7-b00c-98834369b807",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/5.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Paper Planes\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=10neDD-VGEEQixPS35Lh-nOSmea2Rktvr\",\"duration\":\"0:29\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Paper Planes\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1jUK6f2le5BR4XOaPZzt0L1Ej7nSJ9JGV\",\"duration\":\"5:20\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -39,10 +39,10 @@ const Album = ({setNftAlbum}) => {
         "token_id": "5",
         "amount": "1",
         "contract_type": "ERC721",
-        "name": "Shadow",
+        "name": "https://withpaper.com/checkout/28cfa7cc-7118-4507-8e2a-a5b0f1c656d1",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/4.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Know Better\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=10o9mPEnLFml_ohkcfuGlO5BUn6THyW-Y\",\"duration\":\"0:30\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Know Better\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1jAVm8NJEzmLQrz4DN0chiFSC_mTSr4vn\",\"duration\":\"3:54\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -50,10 +50,10 @@ const Album = ({setNftAlbum}) => {
         "token_id": "3",
         "amount": "1",
         "contract_type": "ERC721",
-        "name": "Shadow",
+        "name": "https://withpaper.com/checkout/223df16d-bbf5-4d06-b9fa-e73c600a0fe8",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/2.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Sunshine\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=10uDtscWR7iKyonK_spVSfjU_18WE48C2\",\"duration\":\"0:34\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Sunshine\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1jFnSU7NZqlxccJVuYk215Nzo2JQvjiKu\",\"duration\":\"3:48\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -61,10 +61,10 @@ const Album = ({setNftAlbum}) => {
         "token_id": "2",
         "amount": "1",
         "contract_type": "ERC721",
-        "name": "Shadow",
+        "name": "https://withpaper.com/checkout/cae00057-6cdc-49c2-be9c-18b8c7d4f56e",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/1.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Out of Sight\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=10dzYy3MdKRtvVBwNZy-nMhcBmv-Jjs-W\",\"duration\":\"0:31\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Out of Sight\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1iwlicaZfGeNP1bfHVM3qLOjUseu2G9nU\",\"duration\":\"3:08\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     }
     /*
@@ -112,7 +112,7 @@ const Album = ({setNftAlbum}) => {
               PLAY
             </div>
             { albumDetails && albumDetails.length == 5 ? (
-            <div
+            <div hidden
               className="openButton"
               onClick={() =>
                 window.open(
