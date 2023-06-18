@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iBLOOM/static/css/main.d3656f7f.chunk.css",
-    "main.js": "/iBLOOM/static/js/main.7174b0f0.chunk.js",
-    "main.js.map": "/iBLOOM/static/js/main.7174b0f0.chunk.js.map",
+    "main.js": "/iBLOOM/static/js/main.dedda854.chunk.js",
+    "main.js.map": "/iBLOOM/static/js/main.dedda854.chunk.js.map",
     "runtime-main.js": "/iBLOOM/static/js/runtime-main.0bb5d369.js",
     "runtime-main.js.map": "/iBLOOM/static/js/runtime-main.0bb5d369.js.map",
     "static/css/2.7f56d33c.chunk.css": "/iBLOOM/static/css/2.7f56d33c.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.7f56d33c.chunk.css",
     "static/js/2.08a0786b.chunk.js",
     "static/css/main.d3656f7f.chunk.css",
-    "static/js/main.7174b0f0.chunk.js"
+    "static/js/main.dedda854.chunk.js"
   ]
 }
