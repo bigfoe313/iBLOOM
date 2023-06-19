@@ -75,6 +75,10 @@ const App = () => {
                   Wallet
                 </a>
 
+                <a href="https://withpaper.com/wallet" className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}>
+                  NFT-Wallet
+                </a>
+
             </div>
             <div className="recentPlayed">
               <p className="recentTitle">iBLOOM Records is an artist owned record label where all profits from music sales go to the artist. Fans have the opportunity to share in the success of our artists through the collection of music NFTs. We are on the forefront of the decentralized music industry. <a href="mailto:imani.iamfaith@gmail.com" target = "_blank">Contact us.</a></p>
