@@ -31,6 +31,45 @@ const Player = ({ url }) => {
     return `${returnMin}:${returnSec}`;
   };
 
+
+var audio = 0
+const spinner = document.getElementById('spinner');
+
+var intervalID = setInterval(function() {
+  if (trackProgress <= 0) {
+    document.getElementById('spinner').style.display = 'block';
+    listenForVariableChange()  
+  }
+}, 1000); // 1000 milliseconds = 1 second
+
+
+var intervalID2 = setInterval(function() {
+  if (trackProgress > 0) {
+    document.getElementById('spinner').style.display = 'none';
+    listenForVariableChange()  
+  }
+}, 1000); // 1000 milliseconds = 1 second
+
+
+//var intervalID = setInterval(checkVariableValue, 1000);
+
+function listenForVariableChange() {
+    //document.getElementById('spinner').style.display = 'none';
+    clearInterval(intervalID);
+    clearInterval(intervalID2);
+}
+/*
+listenForVariableChange()
+
+function showSpinner() {
+  spinner.style.display = 'block';
+}
+
+function hideSpinner() {
+  spinner.style.display = 'none';
+}
+*/
+
   return (
     <>
     <div className="buttons" style={{width:"300px", justifyContent:"start"}}>
@@ -52,9 +91,10 @@ const Player = ({ url }) => {
         }
         <StepForwardOutlined className="forback" onClick={toNextTrack} />
       </div>
+<div id="spinner" style={{display: "none"}}><p>Song loading...</p></div>
       <div className="buttons">
       {minSec(trackProgress)}
-      <Slider
+      <Slider id="audio"
         value={trackProgress}
         step={1}
         min={0}
