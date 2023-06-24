@@ -91,7 +91,7 @@ function hideSpinner() {
         }
         <StepForwardOutlined className="forback" onClick={toNextTrack} />
       </div>
-<div id="spinner" style={{display: "none"}}><p>Song loading...</p></div>
+      <div id="spinner" style={{display: "none"}}><p>Song loading...</p></div>
       <div className="buttons">
       {minSec(trackProgress)}
       <Slider id="audio"
@@ -106,19 +106,16 @@ function hideSpinner() {
       />
       {duration ? minSec(Math.round(duration)) : "00:00"}
       </div>
+      <div className="soundDiv">
+            <SoundOutlined />
+            <Slider 
+              className="volume" 
+              defaultValue={100} 
+              tooltipVisible={false}
+              onChange={(value) => onVolume(value/100)}
+            />
+      </div>
     </div>
-    <div className="soundDiv">
-          <SoundOutlined />
-          <Slider 
-            className="volume" 
-            defaultValue={100} 
-            tooltipVisible={false}
-            onChange={(value) => onVolume(value/100)}
-          />
-    </div>
-    <br></br>
-    <br></br>
-    <br></br>
     <div className="songAlbum" ><a href={url[trackIndex].name} target = "_blank"><div className="openButton">Buy NFT</div></a></div>
     </>
   );
