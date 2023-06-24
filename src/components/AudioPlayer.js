@@ -79,7 +79,6 @@ function hideSpinner() {
         <div className="songTitle">{JSON.parse(url[trackIndex].metadata).name}</div>
         <div className="songAlbum">Sunflower</div>
         <div className="songAlbum" hidden>{url[trackIndex].name}</div>
-        <br></br>
         </div>
     </div>
     <div>
@@ -115,8 +114,8 @@ function hideSpinner() {
               onChange={(value) => onVolume(value/100)}
             />
       </div>
+      <div className="songAlbum" ><a href={url[trackIndex].name} target = "_blank"><div className="openButton">Buy NFT</div></a></div>
     </div>
-    <div className="songAlbum" ><a href={url[trackIndex].name} target = "_blank"><div className="openButton">Buy NFT</div></a></div>
     </>
   );
 };
