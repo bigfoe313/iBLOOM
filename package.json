@@ -2,7 +2,7 @@
   "name": "amazon-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bigfoe313.github.io/iBLOOM",
+  "homepage": "https://imanibloom.com",
   "dependencies": {
     "@magic-ext/connect": "^0.1.6",
     "@testing-library/jest-dom": "^5.16.2",
