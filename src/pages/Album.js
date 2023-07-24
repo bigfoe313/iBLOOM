@@ -6,6 +6,13 @@ import Opensea from "../images/opensea.png";
 import { ClockCircleOutlined } from "@ant-design/icons";
 import IMANIBloom from "../images/SunflowerAlbumCover.jpg";
 
+
+// Function to scroll to the bottom of the page
+function scrollToBottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+scrollToBottom()
+
 const Album = ({setNftAlbum}) => {
 
   const {state: album} = useLocation();
@@ -108,7 +115,7 @@ const Album = ({setNftAlbum}) => {
             </div>
           </div>
           <div className="topBan">
-            <div className="playButton" onClick={() => setNftAlbum(albumDetails)}>
+            <div className="playButton" id="play" onClick={() => setNftAlbum(albumDetails)}>
               PLAY
             </div>
             { albumDetails && albumDetails.length == 5 ? (
@@ -158,6 +165,7 @@ const Album = ({setNftAlbum}) => {
                     >
                       {nft.name}
                     </div>
+                    <div className="songAlbum" ><a href={albumDetails && albumDetails[i].name} target = "_blank"><div>Buy NFT</div></a></div>
                     <div className="numberHeader">{nft.duration}</div>
                   </div>
                 </>
