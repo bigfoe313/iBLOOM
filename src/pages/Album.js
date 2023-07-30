@@ -7,11 +7,28 @@ import { ClockCircleOutlined } from "@ant-design/icons";
 import IMANIBloom from "../images/SunflowerAlbumCover.jpg";
 
 
+// Function to click next song button for Nth track when calling nextsong function
+function callFunctionNTimes(func, n) {
+  for (let i = 0; i < n; i++) {
+    func();
+  }
+}
+
+// Function to click to next song
+function nextsong() {
+  setTimeout(() => {
+    var nextbutton = document.getElementsByClassName("forback")[1];
+    nextbutton.click();
+  }, 100); // delay of 0.1 second
+}
+
 // Function to scroll to the bottom of the page
 function scrollToBottom() {
-  window.scrollTo(0, document.body.scrollHeight);
+  setTimeout(() => {
+    window.scrollTo(0, document.body.scrollHeight);
+  }, 100); // delay of 0.1 second
 }
-scrollToBottom()
+
 
 const Album = ({setNftAlbum}) => {
 
@@ -163,7 +180,7 @@ const Album = ({setNftAlbum}) => {
                       className="titleHeader"
                       style={{ color: "rgb(205, 203, 203)" }}
                     >
-                      {nft.name}
+                      <a style={{color: "white"}} onClick={() => {setNftAlbum(albumDetails && albumDetails); callFunctionNTimes(nextsong, i); scrollToBottom()}}>{nft.name}</a>
                     </div>
                     <div className="songAlbum" ><a href={albumDetails && albumDetails[i].name} target = "_blank"><div>Buy NFT</div></a></div>
                     <div className="numberHeader">{nft.duration}</div>
