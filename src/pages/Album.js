@@ -132,7 +132,7 @@ const Album = ({setNftAlbum}) => {
             </div>
           </div>
           <div className="topBan">
-            <div className="playButton" id="play" onClick={() => setNftAlbum(albumDetails)}>
+            <div className="playButton" id="play" onClick={() => {setNftAlbum(albumDetails); scrollToBottom()}}>
               PLAY
             </div>
             { albumDetails && albumDetails.length == 5 ? (
