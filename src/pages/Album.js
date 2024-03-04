@@ -44,7 +44,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://withpaper.com/checkout/74ab3acb-3d80-450f-9072-6d4724672cd3",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/3.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Shoulda Coulda Woulda\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1j3756EIfQnDY5sR11Rm7opPLaI58Reho\",\"duration\":\"3:13\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Shoulda Coulda Woulda\",\"animation_url\":\"https://bafybeiesjq5zw57kjjjvkecy2ihggdfk473cy6rmetuqagz4qrzrogunj4.ipfs.nftstorage.link/\",\"duration\":\"3:13\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -55,7 +55,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://withpaper.com/checkout/3ae579eb-7a38-46be-bcc2-72f61ece1aa9",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/5.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Paper Planes\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1jUK6f2le5BR4XOaPZzt0L1Ej7nSJ9JGV\",\"duration\":\"5:20\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Paper Planes\",\"animation_url\":\"https://bafybeifbesb3q63uw27gsbwzvkynj5c5puoabq2eielgvtfqdtpqlg7uji.ipfs.nftstorage.link/\",\"duration\":\"5:20\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -66,7 +66,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://withpaper.com/checkout/bb90ef06-5e74-4d7c-a88e-1d3776dd4964",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/4.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Know Better\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1jAVm8NJEzmLQrz4DN0chiFSC_mTSr4vn\",\"duration\":\"3:54\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Know Better\",\"animation_url\":\"https://bafybeieyrp2qucheloenj2w4cppah5jgtya25752yivijtd25kq225qd2u.ipfs.nftstorage.link/\",\"duration\":\"3:54\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -77,7 +77,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://withpaper.com/checkout/21410283-c79c-4a9a-a10a-b7ec8046bfa1",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/2.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Sunshine\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1jFnSU7NZqlxccJVuYk215Nzo2JQvjiKu\",\"duration\":\"3:48\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Sunshine\",\"animation_url\":\"https://bafybeigsfdpxdzlkf77swkoqz3gnuougncvvj2cmqa4uq6pwznvokyeola.ipfs.nftstorage.link/\",\"duration\":\"3:48\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -88,7 +88,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://withpaper.com/checkout/b871d69c-b769-49b0-9bd3-91c9cc3db340",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/1.json",
-        "metadata": "{\"image\":\"https://drive.google.com/uc?export=open&id=1ti3HsALKuwM_SXEu1SLsMsvteJYBypb9\",\"name\":\"Out of Sight\",\"animation_url\":\"https://drive.google.com/uc?export=open&id=1iwlicaZfGeNP1bfHVM3qLOjUseu2G9nU\",\"duration\":\"3:08\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Out of Sight\",\"animation_url\":\"https://bafybeigmyu27gffoc2eoztrkk3sfvplz3a3rsyxk7usrchm55wuzodzg4m.ipfs.nftstorage.link/\",\"duration\":\"3:08\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     }
     /*
@@ -126,8 +126,7 @@ const Album = ({setNftAlbum}) => {
                 {albumDetails && JSON.parse(albumDetails[0].metadata).artist}
               </div>
               <div>
-                {albumDetails && JSON.parse(albumDetails[0].metadata).year} •{" "}
-                {albumDetails && albumDetails.length} Song(s)
+                {albumDetails && albumDetails.length} Songs
               </div>
             </div>
           </div>
