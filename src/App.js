@@ -75,13 +75,13 @@ const App = () => {
                   Wallet
                 </a>
 
-                <a href="https://withpaper.com/wallet" className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}>
+                <a hidden href="https://withpaper.com/wallet" className="walletlink" style={{ color: "#1db6b9", fontSize: "22px",   fontWeight: "600" }}>
                   NFT-Wallet
                 </a>
 
             </div>
             <div className="recentPlayed">
-              <p className="recentTitle">iBLOOM Records is an artist owned record label where all profits from music sales go to the artist. Fans have the opportunity to share in the success of our artists through the collection of music NFTs. We are on the forefront of the decentralized music industry. Click on the album cover to listen to and purchase NFTs. Purchases will be saved in your personalized NFT-Wallet. <br></br><a href="mailto:info@imanibloom.com" target = "_blank">Contact us.</a></p>
+              <p className="recentTitle">iBLOOM Records is an artist owned record label where all profits from music sales go to the artist. Fans have the opportunity to share in the success of our artists through the collection of music NFTs. We are on the forefront of the decentralized music industry. Click on the album cover to listen to and purchase NFTs. Purchases will be saved in your personalized NFT Wallet. <br></br><a href="mailto:info@imanibloom.com" target = "_blank">Contact us.</a></p>
               <div className="install" hidden>
                 <span>  </span>
                 <DownCircleOutlined style={{ fontSize: "30px" }} />
