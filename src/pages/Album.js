@@ -44,7 +44,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://www.crossmint.com/checkout?clientId=ec64775f-35be-4d65-9949-4ec5fca3bf79&clientName=client-sdk-react-ui&clientVersion=1.9.3&locale=en-US&currency=usd&mintConfig=%7B%22type%22%3A%22erc-721%22%2C%22tokenId%22%3A%223%22%2C%22quantity%22%3A%221%22%2C%22totalPrice%22%3A%221.40%22%7D&projectId=b1b52554-0b1b-4c7c-9e0d-4f3b61c79b41",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/3.json",
-        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Shoulda Coulda Woulda\",\"animation_url\":\"https://bafybeiesjq5zw57kjjjvkecy2ihggdfk473cy6rmetuqagz4qrzrogunj4.ipfs.nftstorage.link/\",\"duration\":\"3:13\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Shoulda Coulda Woulda\",\"animation_url\":\"https://ipfs.io/ipfs/QmPWPe4UngbSJbPLDvZLqmeETReZSgLPjeCNMKhswKadzV/3.mp4\",\"duration\":\"3:13\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -55,7 +55,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://www.crossmint.com/checkout?clientId=ec64775f-35be-4d65-9949-4ec5fca3bf79&clientName=client-sdk-react-ui&clientVersion=1.9.3&locale=en-US&currency=usd&mintConfig=%7B%22type%22%3A%22erc-721%22%2C%22tokenId%22%3A%224%22%2C%22quantity%22%3A%221%22%2C%22totalPrice%22%3A%221.40%22%7D&projectId=b1b52554-0b1b-4c7c-9e0d-4f3b61c79b41",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/5.json",
-        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Paper Planes\",\"animation_url\":\"https://bafybeifbesb3q63uw27gsbwzvkynj5c5puoabq2eielgvtfqdtpqlg7uji.ipfs.nftstorage.link/\",\"duration\":\"5:20\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Paper Planes\",\"animation_url\":\"https://ipfs.io/ipfs/Qmbxa1M7PH6it8CV6M4fb1iyrEHRr7Y5nERyEMdM9BVpzK/4.mp4\",\"duration\":\"5:20\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -66,7 +66,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://www.crossmint.com/checkout?clientId=ec64775f-35be-4d65-9949-4ec5fca3bf79&clientName=client-sdk-react-ui&clientVersion=1.9.3&locale=en-US&currency=usd&mintConfig=%7B%22type%22%3A%22erc-721%22%2C%22tokenId%22%3A%225%22%2C%22quantity%22%3A%221%22%2C%22totalPrice%22%3A%221.40%22%7D&projectId=b1b52554-0b1b-4c7c-9e0d-4f3b61c79b41",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/4.json",
-        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Know Better\",\"animation_url\":\"https://bafybeieyrp2qucheloenj2w4cppah5jgtya25752yivijtd25kq225qd2u.ipfs.nftstorage.link/\",\"duration\":\"3:54\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Know Better\",\"animation_url\":\"https://ipfs.io/ipfs/Qmd8GJPMa4YsaTAoVYDRrjRgpd4MwRP3g3fqknHD6qaKYR/5.mp4\",\"duration\":\"3:54\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -77,7 +77,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://www.crossmint.com/checkout?clientId=ec64775f-35be-4d65-9949-4ec5fca3bf79&clientName=client-sdk-react-ui&clientVersion=1.9.3&locale=en-US&currency=usd&mintConfig=%7B%22type%22%3A%22erc-721%22%2C%22tokenId%22%3A%226%22%2C%22quantity%22%3A%221%22%2C%22totalPrice%22%3A%221.40%22%7D&projectId=b1b52554-0b1b-4c7c-9e0d-4f3b61c79b41",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/2.json",
-        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Sunshine\",\"animation_url\":\"https://bafybeigsfdpxdzlkf77swkoqz3gnuougncvvj2cmqa4uq6pwznvokyeola.ipfs.nftstorage.link/\",\"duration\":\"3:48\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Sunshine\",\"animation_url\":\"https://ipfs.io/ipfs/QmZJ7e2XWFUZRWGUfBnZeCsizGUgGg2qkjVxZs5THGLk1X/6.mp4\",\"duration\":\"3:48\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     },
     {
@@ -88,7 +88,7 @@ const Album = ({setNftAlbum}) => {
         "name": "https://www.crossmint.com/checkout?clientId=ec64775f-35be-4d65-9949-4ec5fca3bf79&clientName=client-sdk-react-ui&clientVersion=1.9.3&locale=en-US&currency=usd&mintConfig=%7B%22type%22%3A%22erc-721%22%2C%22tokenId%22%3A%227%22%2C%22quantity%22%3A%221%22%2C%22totalPrice%22%3A%221.40%22%7D&projectId=b1b52554-0b1b-4c7c-9e0d-4f3b61c79b41",
         "symbol": "shad",
         "token_uri": "https://gateway.moralisipfs.com/ipfs/QmcfAiN4gVRFDB3uqQKAN1hgpFk3bDG3hVVV2bBnDZNYsD/metadata/1.json",
-        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Out of Sight\",\"animation_url\":\"https://bafybeigmyu27gffoc2eoztrkk3sfvplz3a3rsyxk7usrchm55wuzodzg4m.ipfs.nftstorage.link/\",\"duration\":\"3:08\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
+        "metadata": "{\"image\":\"https://bafybeiaoejh325xpxrmmvour72v5evfaoc3fzegxejgecehcehcuzontje.ipfs.nftstorage.link/\",\"name\":\"Out of Sight\",\"animation_url\":\"https://ipfs.io/ipfs/QmbgUhFvfidR6hseL5tiCWG1z8aB9Dj4QeY65qT6brTFji/7.mp4\",\"duration\":\"3:08\",\"artist\":\"IMANI BLOOM\",\"year\":\"2023\"}",
         "synced_at": "2022-03-04T09:06:55.133Z"
     }
     /*
